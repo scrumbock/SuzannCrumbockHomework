@@ -1,4 +1,9 @@
 body {
+	background: url(FinalAboutMePics/BarnBackground.jpg);
+	background-size: 2016px 1512px;
+	background-repeat: no-repeat;
+}
+.container {
 	background: #427202;
 	text-align: center;
 }

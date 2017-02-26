@@ -9,7 +9,7 @@ h1 {
 	font-family: "Fishtown2";
 	text-align: center;
 	color: white;
-	font-size: 100px;
+	font-size: 75px;
 	text-shadow: 10px 10px black;
 }
 h3 {
@@ -22,20 +22,12 @@ h3 {
 	text-shadow: 4px 4px black;
 }
 /* Navigation Menu with Links */
-.NavigationBar {
-    background-color: black;
-    height: 54px;
-    width: 1370px;
-    margin: 0px;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    display: block;
-}
 ul {
     list-style-type: none;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
+    background-color: #333;
 }
 li {
   float: left;
@@ -44,8 +36,9 @@ li {
 li a {
   display: block;
   padding: 20px;
-  background-color: black;
-  font-color: white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
 /* blue content box */
@@ -77,15 +70,7 @@ li a {
   	color: black;
   	background-color: white;
 }
-a:link {
-  color:white; /* unvisited link */
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
-a:visited {
-  color: white;
-}
- a:hover {
- 	color:gray; /* mouse over link */
- }
- a:active {
-  color: orange;
- }
