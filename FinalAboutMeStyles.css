@@ -1,3 +1,64 @@
+
 body {
-	background: yellow;
+	background: url(FinalAboutMePics/BarnBackground.jpg);
+	background-size: 2016px 1512px;
+	background-repeat: no-repeat;
+	font-size: 24px;
 }
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+	text-shadow: 10px 10px black;
+}
+h3 {
+	text-align: center;
+	color: orange;
+	font-size: 45px;
+	margin: 100px;
+	border: 1px solid black;
+	background-color: gray;
+	text-shadow: 4px 4px black;
+}
+/* blue content box */
+.poem {
+    float: right;
+    background-color: #eaecf0;
+    height: 100px;
+    width: 360px;
+    border: 1px solid #b9c4e2;
+    padding: 15px 20px;
+    margin: 20px 0;
+    text-align: center;
+    font-style: italic;
+}
+.boxed {
+  border: 1px solid #b9c4e2;
+  background-color: #eaecf0;
+  padding: 100px 100px;
+  font-family: century;
+}
+.image-with-caption {
+  	margin-bottom: 30px;
+  	position: relative;
+  }
+.caption1 {
+	font-style: georgia bold;
+  	position: absolute;
+  	bottom:  0;
+  	color: black;
+  	background-color: white;
+  }
+ a:link {
+ 	color:blue; /* unvisited link */
+ }
+ a:visited {
+ 	color:red; /* visited link */
+ }
+ a:hover {
+ 	color:orange; /* mouse over link */
+ }
+ a:active {
+ 	color: yellow; /* selected link */ 
+ }

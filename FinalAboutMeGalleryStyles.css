@@ -1,0 +1,81 @@
+body {
+	background: #427202;
+	text-align: center;
+}
+.pic {
+	border: 3px solid #ddd;
+	border-radius: 8px;
+	margin: 10px;
+	display: inline-block;
+	width: 350px;
+	height: 250px;
+}
+.one {
+	background: url(FinalAboutMePics/beau-sad.jpg);
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.two {
+	background: url(FinalAboutMePics/beau-happy.jpg);
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.three {
+	background: url(FinalAboutMePics/beau-tongue.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.four {
+	background: url(FinalAboutMePics/beau-snow.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.five {
+	background: url(FinalAboutMePics/beau-kindergarten.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.six {
+	background: url(FinalAboutMePics/beau-mom.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.seven {
+	background: url(FinalAboutMePics/beau-run.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.eight {
+	background: url(FinalAboutMePics/beau-handsome.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.nine {
+	background: url(FinalAboutMePics/beau-beach.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/* Tablet Stylings */
+@media all and (min-width: 461px) and (max-width: 1300px) {
+	.pic  {
+		width: 43%;
+		float: left;
+	}	
+}
+
+/* Mobile Stylings */
+@media all and (max-width: 460px) {
+.pic {
+	float: none;
+	width: 100%;
+	margin: 1px;
+	border: none;
+}
+.nine {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Papillon_sitting_Flickr.jpg/218px-Papillon_sitting_Flickr.jpg");
+	background-repeat: no-repeat;
+}
+}
