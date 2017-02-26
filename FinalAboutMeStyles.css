@@ -21,6 +21,14 @@ h3 {
 	background-color: gray;
 	text-shadow: 4px 4px black;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+  display: inline;
+}
 /* blue content box */
 .poem {
     float: right;
