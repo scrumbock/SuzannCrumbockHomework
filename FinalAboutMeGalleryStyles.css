@@ -3,8 +3,31 @@ body {
 	background-size: 2016px 1512px;
 	background-repeat: no-repeat;
 }
+.topnav {
+	list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0px;
+}
+
+.topnav li {float: left;}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
 .container {
-	background: #427202;
 	text-align: center;
 }
 .pic {
@@ -79,8 +102,7 @@ body {
 	margin: 1px;
 	border: none;
 }
-.nine {
-	background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Papillon_sitting_Flickr.jpg/218px-Papillon_sitting_Flickr.jpg");
-	background-repeat: no-repeat;
+.topnav {
+	float: none;
 }
 }
