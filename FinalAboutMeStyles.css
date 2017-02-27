@@ -5,8 +5,13 @@ body {
 	background-repeat: no-repeat;
 	font-size: 24px;
 }
+.Nameplate {
+  background: black;
+  color: white;
+  margin: 0px;
+}
 h1 {
-	font-family: "Fishtown2";
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	text-align: center;
 	color: white;
 	font-size: 75px;

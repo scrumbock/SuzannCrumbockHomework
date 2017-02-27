@@ -3,6 +3,15 @@ body {
 	background-size: 2016px 1512px;
 	background-repeat: no-repeat;
 }
+.header {
+	margin: 0px;
+	height: 30px;
+	width: 100%;
+	background: black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 38px;
+	color: white;
+}
 .topnav {
 	list-style-type: none;
     margin: 0;
@@ -11,8 +20,7 @@ body {
     background-color: #333;
     margin: 0px;
 }
-
-.topnav li {float: left;}
+.topnav li {float: right;}
 
 .topnav li a {
     display: block;
