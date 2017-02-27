@@ -75,10 +75,6 @@ ul.topnav li a.active {background-color: #4CAF50;}
 
 ul.topnav li.right {float: right;}
 
-
-
-
-
 /* Mobile Stylings */
 @media all and (max-width: 460px) {
 .topnav {
