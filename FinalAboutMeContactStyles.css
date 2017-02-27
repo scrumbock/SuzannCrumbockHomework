@@ -66,6 +66,8 @@ h2 {
 }
 th, td {
 	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 22px; 
 }
 ul.topnav li a:hover:not(.active) {background-color: #111;}
 
